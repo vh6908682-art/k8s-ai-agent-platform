@@ -1,6 +1,6 @@
-fastapi==0.142.2
+fastapi==0.165.0
 uvicorn==0.54.0
-python-multipart==0.0.32
+python-multipart==0.0.34
 faster-whisper==1.2.1
 piper-tts==1.8.0
-av==18.1.0  # faster-whisper 1.2.1 passes metadata_errors to av.open(); PyAV 19 removed it (2026-10-08)
+av==18.1.1  # faster-whisper 1.2.1 passes metadata_errors to av.open(); PyAV 19 removed it (2026-10-08)
